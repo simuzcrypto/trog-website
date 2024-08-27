@@ -1,24 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
-    padding: 10px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
     width: 100px;
-}
-
-#play-music {
-    margin-top: 15px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+    margin-bottom: 10px;
 }
 
 section {
@@ -26,5 +24,28 @@ section {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
